@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/display_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/rank"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_gravity="start|center_vertical" />
+
+        <TextView
+            android:id="@+id/display_country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:width="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/country_code"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_column="1"
+            app:layout_gravity="center_vertical"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/display_points"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center|center_vertical"
+            android:text="@string/points"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_column="3"
+            app:layout_gravity="center_vertical|end"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/display_name"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center|center_vertical"
+            android:maxWidth="220dp"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_column="2"
+            app:layout_gravity="center_vertical"
+            app:layout_row="0" />
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

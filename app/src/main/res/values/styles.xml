@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_login_register">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:backgroundTint">#FFEB3B</item>
+        <item name="android:icon">@drawable/ic_racket2</item>
+        <item name="android:drawableTint">#DB6B33</item>
+        <item name="android:textColor">#DB6B33</item>
+    </style>
+
+    <style name="edit_text_login_register">
+        <item name="android:layout_width">244dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:backgroundTint">#FFEB3B</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColorHint">#FFEB3B</item>
+        <item name="android:autofillHints"></item>
+    </style>
+</resources>

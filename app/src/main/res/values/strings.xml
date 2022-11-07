@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyYellowBallV1</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="welcome">Welcome !</string>
+    <string name="atp_rankings">ATP Rankings</string>
+    <string name="rank">Rank</string>
+    <string name="cc">CC</string>
+    <string name="country_code">country code</string>
+    <string name="name">Name</string>
+    <string name="points">Points</string>
+    <string name="display_text">display text</string>
+    <string name="my_yellow_ball">My Yellow Ball</string>
+    <string name="book_you_next_training_session_now">Book you next training session now !</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="club_id">Club ID</string>
+    <string name="already_registered_log_in">Already registered ? Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="your_profile">Your profile</string>
+    <string name="edit_your_profile">Edit your profile</string>
+    <string name="date">date</string>
+    <string name="choose_your_next_training_session">Choose your next training session !</string>
+    <string name="time">time</string>
+</resources>
